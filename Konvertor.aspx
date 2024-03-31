@@ -27,7 +27,7 @@
 
 
                     <br />
-                    <asp:Label ID="Label1" runat="server" Text="Tekst na latinic:"></asp:Label>
+                    <asp:Label ID="Label1" runat="server" Text="Tekst na latinici:"></asp:Label>
 
                     <asp:TextBox ID="TextBox1" runat="server" Height="94px" Rows="6" TextMode="MultiLine" Width="70%"></asp:TextBox>
                     <br />
