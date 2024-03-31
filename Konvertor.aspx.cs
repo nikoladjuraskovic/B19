@@ -10,10 +10,10 @@ namespace B19
 {
     public partial class Konvertor : System.Web.UI.Page
     {
-        ServiceReference1.WebService1SoapClient service;
+        ServiceReference1.WebService1SoapClient service = new ServiceReference1.WebService1SoapClient();
         protected void Page_Load(object sender, EventArgs e)
         {
-            service = new ServiceReference1.WebService1SoapClient();
+            
         }
 
         protected void Button1_Click(object sender, EventArgs e)
